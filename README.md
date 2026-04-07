@@ -9,13 +9,24 @@ A simple RESTful API built with Flask for managing student records.
 - View all students
 - Update student details
 - Delete a student
-- Persistent data storage using SQLite
+-  Uses SQLite database for persistent storage
 
 ---
 
 ## 🛠 Tech Stack
 - Python
 - Flask
+- ## Sample Response
+
+GET /students
+
+[
+  {
+    "id": 1,
+    "name": "Joshua",
+    "age": 25
+  }
+]
 -  SQLite (Database)
 
 ---
